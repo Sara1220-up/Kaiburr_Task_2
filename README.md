@@ -23,7 +23,7 @@ task2/
 │   ├── app-deployment.yaml        # Spring Boot Application Deployment
 │   └── app-service.yaml           # NodePort Service for external access
 │
-├── screenshots/                   # Screenshots of pods, services, curl results
+├── Task 2/                        # Screenshots folder
 └── README.md
 
 ````
@@ -99,19 +99,25 @@ Exposes the application through a **NodePort (30080)** so it can be accessed fro
 
 Include screenshots with **system date/time** and **your name visible**:
 
-| Action                      | Screenshot                                |
-| --------------------------- | ----------------------------------------- |
-| Pods running                | ![pods](Deployments,Services/Pods/andMongoLogs.png)         |
-| Services running            | ![services](cURLCommands/using/BusyBoxTest) |
-| Application endpoint output | ![curl](cURLCommands/using/BusyBoxTest)         |
-| MongoDB data persisted      | ![db](tasksdb)          |
+| Action                                      | Screenshot                                                                                                     |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Pods and Mongo Deployments                  | ![app\&mongo\_deployments](Task%202/app\&mongo_deployments.png)                                                |
+| Deployments, Services, Pods, and Mongo Logs | ![Deployments\_Services\_Pods\_Logs](Task%202/Deployments%2C%20Services%2C%20Pods%2C%20and%20Mongo%20Logs.png) |
+| Docker Build Verification                   | ![Dockerbuild](Task%202/Dockerbuild.png)                                                                       |
+| Docker Image Verification                   | ![Docker\_verification](Task%202/Docker_verification.png)                                                      |
+| Docker Inspection                           | ![Docker\_Inspection](Task%202/Docker%20Inspection.png)                                                        |
+| Docker Inspect Output                       | ![Docker\_Inspect\_Output](Task%202/Docker%20Inspect%20Output.png)                                             |
+| Curl Task Verified                          | ![curl\_Task\_Verified](Task%202/curl_Task_Verified.png)                                                       |
+| Curl Commands Using BusyBox Test            | ![cURL\_Commands\_using\_BusyBox\_Test](Task%202/cURL%20Commands_using_BusyBox_Test.png)                       |
+| Tasks DB View                               | ![tasksdb](Task%202/tasksdb.png)                                                                               |
 
 ## ✅ Validation Checklist
 
 * [x] Both MongoDB and Spring Boot pods deployed successfully
 * [x] Services created and accessible
 * [x] Data persists after pod deletion
-* [x] Screenshots attached with name and timestampcURL Commands_using_BusyBox_Test
+* [x] Screenshots attached with name and timestamp
 
 
-```
+
+Would you like me to make a **version where the image links are already encoded with your GitHub repo link**, so they will load even if your folder name changes in the future?
