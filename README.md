@@ -118,6 +118,12 @@ Include screenshots with **system date/time** and **your name visible**:
 * [x] Data persists after pod deletion
 * [x] Screenshots attached with name and timestamp
 
+---
 
+## 🧩 Author
 
-Would you like me to make a **version where the image links are already encoded with your GitHub repo link**, so they will load even if your folder name changes in the future?
+**👤 Sarayu Mandadi**  
+📦 Kaiburr Internship – Task 2 Submission  
+📧 Docker Hub: [`sarayu2020`](https://hub.docker.com/u/sarayu2020)
+
+---
